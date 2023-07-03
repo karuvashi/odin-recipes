@@ -1,0 +1,20 @@
+* {
+    background-color:blanchedalmond;
+    font-family: Monaco, sans-serif;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+a, button {
+    background-color:rgb(195, 159, 105);
+    font-size: 20px;
+    font-color: black;
+}
