@@ -1,20 +1,57 @@
-* {
+body {
     background-color:blanchedalmond;
     font-family: Monaco, sans-serif;
 }
 
 img {
-    width: 100%;
+    width: 600px;
     height: auto;
-    
+    display: block;
+    margin: 20px auto;
 }
 
 h1, h2 {
     text-align: center;
 }
 
-a, button {
-    background-color:rgb(195, 159, 105);
-    font-size: 20px;
-    font-color: black;
+h1 {
+    background-color: rgb(195, 159, 105);
 }
+
+h2 {
+    margin: 20px;
+}
+
+.recipe-card,
+h1,
+h2 {
+    display: block;
+    border-width: 10px;
+    border-style: double;
+    border-color: rgb(73, 46, 6);
+    background-color: rgb(195, 159, 105);
+    padding: 10px;
+}
+
+button {
+    background-color:rgb(195, 159, 105);
+    margin: 8px;
+    border-width: 3px;
+    border-style: double;
+    border-color: rgb(73, 46, 6);
+
+}
+
+a {
+    font-size: 20px;
+    color: black;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+p {
+    padding: 8px;
+}
+
